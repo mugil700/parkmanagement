@@ -1,0 +1,224 @@
+.wrapper {
+    position: relative;
+    top: 60px;
+    
+}
+
+div#dd img {
+
+    position: fixed;
+    z-index: -1;
+    right: 0px;
+}
+#one{
+    margin-left: 20px;
+    margin-top: 50px;
+    border-style: none;
+    float: left;
+}
+#tw{
+    margin-left: 360px;
+    margin-top: 50px;
+    border-style: none;
+    float: left;
+}
+#thr{
+   
+    margin-left: 370px;
+    margin-top: 50px;
+    border-style: none;
+    float: left;
+}
+#one img {
+    --s: 250px;   /* the size of the image */
+    --b: 8px;     /* the border thickness*/
+    --g: 14px;    /* the gap */
+    --c: #2884ed; /* the color */
+    
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) ;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+ #one img:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+    background-color: #2884ed;
+    
+  }
+  
+ #one img + img {
+    border-radius: 50%;
+  }
+  #tw img {
+    --s: 250px;   /* the size of the image */
+    --b: 8px;     /* the border thickness*/
+    --g: 14px;    /* the gap */
+    --c: #2884ed; /* the color */
+    
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) ;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+ #tw img:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+    background-color: #2884ed;
+    
+  }
+  
+ #tw img + img {
+    border-radius: 50%;
+  }
+  #thr img {
+    --s: 250px;   /* the size of the image */
+    --b: 8px;     /* the border thickness*/
+    --g: 14px;    /* the gap */
+    --c: #2884ed; /* the color */
+    
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) ;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+ #thr img:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+    background-color: #2884ed;
+    
+  }
+  
+ #thr img + img {
+    border-radius: 50%;
+  }
+#tx{
+    font-size: 30px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+  }
+ 
+#foot {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+  }
+ #si{
+  margin-left: 10px;
+  border-style: dotted;
+  
+ }
+ #us{
+  border-style: dotted;
+  margin-top: 100px;
+ }
+
+.announcements{
+    background-color: #111;
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    padding: 10px;
+    bottom: 0px;
+    display: flex;
+}
+
+.announcements .ticker{
+   padding: 5px 10px;
+   color: #111;
+   position: relative;
+   font-size: 16px;
+      background-color: #fff000;
+
+}
+.announcements .news-content p{
+  display: inline;
+  color: #fff;
+}
+
+
+
+/*payment*/
+/*
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+
+
+.card {
+    max-width: 500px;
+    margin: auto;
+    color: black;
+    border-radius: 20 px;
+}
+
+p {
+    margin: 0px;
+}
+
+.container .h8 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.btn.btn-primary {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+    border: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+
+}
+
+
+.btn.btn.btn-primary:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.btn.btn-primary:hover .fas.fa-arrow-right {
+    transform: translate(15px);
+    transition: transform 0.2s ease-in;
+}
+
+.form-control {
+    color: white;
+    background-color: #223C60;
+    border: 2px solid transparent;
+    height: 60px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+.form-control:focus {
+    color: white;
+    background-color: #0C4160;
+    border: 2px solid #2d4dda;
+    box-shadow: none;
+}
+
+
+::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+}*/
+
+
